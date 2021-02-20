@@ -13,7 +13,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'http://localhost:5000';
+  const ENDPOINT = 'https://chat-app9798.herokuapp.com/';
   var connectionOptions = {
     'force new connection': true,
     reconnectionAttempts: 'Infinity',
